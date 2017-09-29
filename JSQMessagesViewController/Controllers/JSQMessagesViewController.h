@@ -197,6 +197,8 @@
 
 #pragma mark - Messages view controller
 
+- (BOOL)isOutgoingMessage:(NSString *)messageSenderId;
+
 /**
  *  This method is called when the user taps the send button on the inputToolbar
  *  after composing a message with the specified data.
